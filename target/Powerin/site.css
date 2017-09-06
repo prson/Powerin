@@ -1,0 +1,131 @@
+@CHARSET "ISO-8859-1";
+
+h1{
+	color:#CCCCCC;
+}
+
+body{
+background-color:#AAAAAA;
+margin:0;
+}
+
+.form-group{
+	width:40%;
+	float:left;
+}
+
+.col-sm-10 div{
+	display:inline-block;
+}
+
+.col-sm-10{
+	text-align: justify;
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;
+    justify-content:space-between;
+}
+
+.canvasContainer{
+	display:inline-block;
+	width:50%;
+	margin: 0 auto;
+	vertical-align:center;
+	float:right;
+}
+
+.menu{
+	display:inline-block;
+	float:right;
+	padding:30px 0;
+	text-font:12px;
+}
+
+.menu a{
+	color:#CCCCCC;
+	font-size:16px;
+	padding:0 20px;
+	font-style:normal;
+	text-decoration: none;
+}
+
+.title{
+	display:inline-block;
+	width:48%;
+	float:left;
+}
+
+.canvas{
+	width:90%;
+}
+
+.category-group{
+	width:100%;
+	overflow:hidden;
+	margin:10px 0;
+	padding:10px 0;
+}
+
+#canvasBAContainer{
+	display:inline-block;
+	width:50%;
+	margin: 0 auto;
+	vertical-align:center;
+	float:left;
+}
+#selectBidArea{
+	display:inline-block;
+	width:50%;
+	margin: 0 auto;
+	vertical-align:center;
+	float:right;
+}
+#RegionGroup{
+background-color:#BBBBBB;
+}
+#BidAreaGroup{
+background-color:#CCCCCC;
+}
+#StateGroup{
+background-color:#DDDDDD;
+}
+
+@media (max-width: 768px) {
+
+.form-group{
+	width:100%;
+	vertical-align:center;
+	float:left;
+}
+
+.col-sm-10 div{
+	display:inline-block;
+}
+
+.canvasContainer{
+	width:100%;
+	margin: auto;
+	vertical-align:center;
+	float:right;
+}
+
+#canvasBAContainer{
+	width:100%;
+	margin: auto;
+	vertical-align:center;
+	float:left;
+}
+#selectBidArea{
+	width:100%;
+	margin: 0;
+	vertical-align:center;
+	float:left;
+}
+
+.canvas{
+	width:100%;
+}
+
+.category-group{
+	padding:auto;
+}
+}
